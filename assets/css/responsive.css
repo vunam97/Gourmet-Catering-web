@@ -1,0 +1,49 @@
+/* Mobile & Tablet */
+@media (max-width: 1024px){
+    .content{
+        width: 720px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .content .catering-img{
+        width: 340px;
+        height: 420px;
+        opacity: 0.7;
+        border-radius: 5px;
+    }
+    .catering-info .catering-tittle{
+        text-align: center;
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 5px;
+    }
+    .catering-info .catering-decs{
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: auto;
+        font-size: 20px;
+        letter-spacing: 5px;
+    }
+    .catering-info .catering-text p:nth-child(2){
+        display: none;
+    }
+    .menu{
+        flex-direction: column;
+    }
+}
+@media (max-width: 739px){
+    .nav-list{
+        display: none;
+    }
+    .content{
+        max-width: 100%;
+        margin: 0 28px;
+    }
+    .catering-info .catering-text p:nth-child(2){
+        display: block;
+    }
+    .content .catering-img{
+        display: none;
+    }
+}
